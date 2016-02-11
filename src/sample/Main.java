@@ -28,7 +28,7 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.show();
         try {
-            connectToAndQueryDatabase("root", "gladijator");
+            connectToAndQueryDatabase("root", xxxx);
         }catch(Exception e){
             e.printStackTrace();
         }
